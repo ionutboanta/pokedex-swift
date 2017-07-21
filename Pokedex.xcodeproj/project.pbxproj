@@ -14,6 +14,7 @@
 		6EBB96F91F2229CD00850897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB96F71F2229CD00850897 /* LaunchScreen.storyboard */; };
 		6EBB97041F2229CE00850897 /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB97031F2229CE00850897 /* PokedexTests.swift */; };
 		6EBB970F1F2229CE00850897 /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB970E1F2229CE00850897 /* PokedexUITests.swift */; };
+		6EBB971D1F222D5500850897 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB971C1F222D5500850897 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6EBB970A1F2229CE00850897 /* PokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBB970E1F2229CE00850897 /* PokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITests.swift; sourceTree = "<group>"; };
 		6EBB97101F2229CE00850897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBB971C1F222D5500850897 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6EBB96ED1F2229CD00850897 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				6EBB971C1F222D5500850897 /* pokemon.csv */,
 				6EBB96EE1F2229CD00850897 /* AppDelegate.swift */,
 				6EBB96F01F2229CD00850897 /* ViewController.swift */,
 				6EBB96F21F2229CD00850897 /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				6EBB96F91F2229CD00850897 /* LaunchScreen.storyboard in Resources */,
 				6EBB96F61F2229CD00850897 /* Assets.xcassets in Resources */,
+				6EBB971D1F222D5500850897 /* pokemon.csv in Resources */,
 				6EBB96F41F2229CD00850897 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
